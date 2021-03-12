@@ -1,0 +1,25 @@
+{
+  "name": "pendulum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bull": "^3.20.1",
+    "cluster": "^0.7.7",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "joi": "^17.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
